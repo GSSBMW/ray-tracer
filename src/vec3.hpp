@@ -17,7 +17,7 @@ public:
     
     Vec3<T> operator + (const Vec3<T> &v) const;
     Vec3<T> operator - (const Vec3<T> &v) const;
-    Vec3<T> operator * (const T &r) const;
+    Vec3<T> operator * (const T &r) const; // product with scalar
     
     T x, y, z;
 };
